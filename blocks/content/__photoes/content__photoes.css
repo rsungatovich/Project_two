@@ -1,0 +1,10 @@
+.content__photoes {
+  margin: auto;
+  margin-top: 97px;
+}
+
+@media screen and (max-width: 767px) {
+  .content__photoes {
+    margin-top: 64px;
+  }
+}

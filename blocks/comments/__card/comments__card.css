@@ -1,0 +1,22 @@
+.comments__card {
+  max-width: 382px;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.comments__card:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+  .comments__card:last-of-type {
+    margin-bottom: 0px;
+  }
+}

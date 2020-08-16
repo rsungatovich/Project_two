@@ -1,0 +1,16 @@
+.videos__section-title {
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+
+@media screen and (max-width: 1023px) {
+  .videos__section-title {
+    margin-bottom: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .videos__section-title {
+    margin-bottom: 16px;
+  }
+}

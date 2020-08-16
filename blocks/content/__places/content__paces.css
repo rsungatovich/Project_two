@@ -1,0 +1,10 @@
+.content__places {
+  margin: auto;
+  margin-top: 102px;
+}
+
+@media screen and (max-width: 767px) {
+  .content__places {
+    margin-top: 64px;
+  }
+}

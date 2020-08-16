@@ -1,0 +1,21 @@
+.videos__container {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .videos__container {
+    margin: auto;
+    max-width: 568px;
+    min-height: 408px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .videos__container {
+    min-height: 392px;
+    flex-direction: column;
+  }
+}

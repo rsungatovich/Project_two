@@ -1,0 +1,11 @@
+@import url(./_active/header__link_active.css);
+
+.header__link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity .2s ease-out;
+}
+
+.header__link:hover {
+  opacity: .5;
+}

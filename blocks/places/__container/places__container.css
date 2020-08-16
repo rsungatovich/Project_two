@@ -1,0 +1,28 @@
+.places__container {
+  display: flex;
+}
+
+.places__container:nth-child(2n + 1) {
+  margin-bottom: 53px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__container:nth-child(2n + 1) {
+    margin-bottom: 50px;
+    }
+  }
+
+@media screen and (max-width: 1023px) {
+  .places__container:nth-child(2n + 1) {
+    margin-bottom: 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .places__container {
+    display: block;
+  }
+  .places__container:nth-child(2n + 1) {
+    margin-bottom: 32px;
+    }
+  }  

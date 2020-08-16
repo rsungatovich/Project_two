@@ -1,0 +1,10 @@
+.lead__box {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__box {
+    max-width: 928px;
+  }
+}

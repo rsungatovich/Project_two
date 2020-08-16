@@ -1,0 +1,9 @@
+.photoes__photo {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .photoes__photo {
+    margin: auto;
+  }
+}

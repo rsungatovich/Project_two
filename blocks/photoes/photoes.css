@@ -1,0 +1,52 @@
+@import url(./__photo/photoes__photo.css);
+
+.photoes {
+  display: grid;
+  max-width: 1184px;
+  padding-left: 48px;
+  padding-right: 48px;
+  grid-template-columns: repeat(4, calc((100% - 48px)/4));
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photoes {
+    grid-template-columns: repeat(3, calc((100% - 32px)/3));
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photoes {
+    max-width: 928px;
+    grid-template-columns: repeat(2, calc((100% - 16px)/2));
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photoes {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .photoes {
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .photoes {
+    grid-row-gap: 8px;
+
+  }
+}

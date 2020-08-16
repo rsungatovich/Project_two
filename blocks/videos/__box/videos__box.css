@@ -1,0 +1,4 @@
+.videos__box {
+  z-index: 1;
+  position: relative;
+}

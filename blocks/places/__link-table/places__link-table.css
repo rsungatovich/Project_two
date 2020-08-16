@@ -1,0 +1,10 @@
+.places__link-table {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  display: block;
+}

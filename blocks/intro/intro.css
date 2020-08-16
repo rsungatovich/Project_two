@@ -1,0 +1,31 @@
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text/intro__text.css);
+@import url(./__box/intro__box.css);
+@import url(./__meta-text/intro__meta-text.css);
+@import url(./__meta-name/intro__meta-name.css);
+@import url(./__info-text/intro__info-text.css);
+@import url(./__info-name/intro__info-name.css);
+@import url(./__info-number/intro__info-number.css);
+
+.intro {
+  max-width: 985px;
+  padding-left: 48px;
+  padding-right: 48px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: 928px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

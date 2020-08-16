@@ -1,0 +1,18 @@
+.comments__text {
+  max-width: 382px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.72;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 13px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__text {
+    order: 1;
+    margin-bottom: 0;
+  }
+}

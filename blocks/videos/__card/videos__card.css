@@ -1,0 +1,57 @@
+@import url(./_bg/_a/videos__card_bg_a.css);
+@import url(./_bg/_b/videos__card_bg_b.css);
+
+.videos__card {
+  flex-basis: calc((100% - 18px)/2);
+  min-height: 323px;
+  border-radius: 5px;
+  position: relative;
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 30px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+.videos__card::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+  transition: opacity ease-out .3s;
+}
+
+.videos__card:hover::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .videos__card {
+    flex-basis: calc((100% - 18px)/2);
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .videos__card {
+    padding: 24px;
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .videos__card {
+    padding: 16px;
+    min-height: 192px;
+  }
+}

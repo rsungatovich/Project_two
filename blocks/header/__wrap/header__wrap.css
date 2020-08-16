@@ -1,0 +1,22 @@
+.header__wrap {
+  font-size: 1.5rem;
+  line-height: 0.96;
+  list-style: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.header__wrap:last-child {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrap {
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+
+  .header__wrap:last-child {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.places__box {
+  max-width: 485px;
+  flex-shrink: 2;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .places__box {
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .places__box {
+    margin: auto;
+
+  }
+}
+
+

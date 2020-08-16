@@ -1,0 +1,17 @@
+.videos__name {
+  max-width: 322px;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+@media screen and (max-width: 1023px) {
+  .videos__name {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+}

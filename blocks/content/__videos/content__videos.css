@@ -1,0 +1,10 @@
+.content__videos {
+  margin: auto;
+  margin-top: 107px;
+}
+
+@media screen and (max-width: 767px) {
+  .content__videos {
+    margin-top: 64px;
+  }
+}
